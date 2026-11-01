@@ -1,0 +1,23 @@
+Component,Specification,Qty,Used for
+Arduino Nano,ATmega328P,1,Remote (transmitter)
+Arduino Uno,ATmega328P,1,Arm (receiver)
+Joystick,HW504 analog,2,Control
+Servo,MG90S metal gear,4,"Base, shoulder, elbow, gripper"
+Voltage regulator,LM7805,4,One per servo
+Ceramic capacitor,0.01 uF,4,Regulator inputs
+Ceramic capacitor,0.1 uF,4,Regulator outputs
+Diode,1N4007 / 1N5819,2,Reverse polarity protection
+Toggle switch,SPST,2,Power switches
+LED,Red,2,Power indicators
+Resistor,330 ohm,2,LED current limit
+Battery,7.4V 2S Li-ion,1,Remote power
+Battery,11.1V 3S pack,1,Arm power (Uno + servos)
+2 pin connector,PCB connector,2,Battery inputs
+Female berg strip,Female header,2,Plug-in servos and boards
+Zero PCB,8x18 cm and 10x10 cm,2,Circuit boards
+M3 bolt,12 mm and 15 mm,55,Assembly
+M3 spacer,20 mm and 25 mm,25,Base standoffs
+M3 hex nut,M3,15,Assembly
+Twisted 2 core wire,~1 m,1,Remote to arm cable
+PLA+ filament,1.75 mm,~70 g,Printed parts
+Acrylic sheet,3-5 mm,1,Base
